@@ -1,4 +1,4 @@
-var myButton = document.querySelector('button');
+/*var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -16,4 +16,4 @@ if(!localStorage.getItem("name")){
 }
 myButton.onclick = function() {
     setUserName();
-}
+}*/
