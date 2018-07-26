@@ -1,28 +1,62 @@
-html {
-  font-size: 10px; /* px 表示 “像素（pixels）”: 这个基础字号现在高10像素 */
-  font-family: 'Open Sans', sans-serif; /* 剩下的部分是你从 Google fonts 上获取的输出 */
-  background-color: #00539F;
-}
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #EDEDED;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  /* border: 5px solid black; */
 }
 *{
 	margin: 0;
 	padding: 0;
 }
-.box{
-	box-sizing: content-box;
-	width: 100px;
-	height: 100px;
-	background-color: lightyellow;
-	padding: 10px;
-	border: 5px solid red;
-	margin: 20px;
+h1{
+	text-align: center;
+}
+ul{
+	
 }
 li{
+	position: relative;
 	list-style-type: symbols;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	background-color: #EDE387;
+	margin-bottom: 15px;
+	padding: 5px;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+li:hover{
+	background-color: #DE8100;
+}
+input{
+	display: inline-block;
+	width: 460px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 5px;
+}
+.addBtn{
+	margin-left: 21px;
+	display: inline-block;
+	background-color: #DE8100;
+	width: 50px;
+height: 26px;
+border-radius: 5px;
+outline: none;
+border: none;
+font-size: 16px;
+line-height: 26px;
+}
+.delBtn{
+	position: absolute;
+top: 5px;
+right: -68px;
+display: inline-block;
+width: 50px;
+height: 24px;
+border-radius: 5px;
+outline: none;
+border: none;
+font-size: 14px;
+line-height: 24px;
+background-color: #DE8100;
 }
