@@ -8,17 +8,9 @@
 </head>
 <body>
 	<div id="app">
-		<h1>《家规》</h1>
-	<ul id="list">
-		<li v-for="(li,index) in list">
-			{{li.content}} 
-			<button class="delBtn" v-on:click="delOne(li.content)" >删除</button>
-		</li>
-	</ul>
-	<label>补充：</label>
-	<input type="text" name="" v-model="addContent">
-	<button class="addBtn" v-on:click="addOne">添加</button>
+		<h1>欢迎来到晶的博客</h1>
 	</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
